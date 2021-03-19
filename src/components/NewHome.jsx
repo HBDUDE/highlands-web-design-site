@@ -30,7 +30,7 @@ export default function NewHome() {
   return (
     <div className="main-div">
       <CssBaseline />
-      <Container  maxWidth="sm" component="main" className={classes.heroContent} className="title-wrapper">
+      <Container  maxWidth="sm" component="main" className={classes.heroContent}>
         <div className="main-title">
           Highlands Web Design
           {/* This font doesnt have any more bold */}

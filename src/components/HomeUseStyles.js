@@ -19,7 +19,8 @@ const useStyles = makeStyles(theme => ({
     width: "10rem"
   },
   heroContent: {
-    padding: theme.spacing(8, 0, 6)
+    padding: theme.spacing(8, 0, 6),
+    marginTop: '35px'
   },
   footer: {
     borderTop: `1px solid ${theme.palette.divider}`,

@@ -16,9 +16,9 @@ input, textarea {
   font-family: 'Cabin';
 }
 
-.title-wrapper {
+/* .title-wrapper {
   margin-top: 35px;
-}
+} */
 
 @media screen and (max-width: 650px) {
   .title-wrapper {

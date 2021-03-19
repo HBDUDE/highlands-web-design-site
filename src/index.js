@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
 
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+
+// OLD CODE
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Fixes bug with mobile height and UI
@@ -32,7 +38,4 @@ import App from './App';
 //   document.getElementById('root')
 // );
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+
